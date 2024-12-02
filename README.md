@@ -20,10 +20,6 @@ What to not expect:
 ### Example
 
 ```python
-from LocalQueue import LocalQueue
-import logging
-
-
 class Foo:
     def __init__(self, kind: str):
         self.kind = kind
@@ -51,8 +47,4 @@ def main():
 
     # Run and wait for completion
     queue.run()
-
-
-if __name__ == '__main__':
-    main()
 ```
